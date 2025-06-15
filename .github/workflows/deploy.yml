@@ -19,7 +19,7 @@ jobs:
         host: ${{ secrets.XRK_SSH_HOST }}
         username: ${{ secrets.XRK_SSH_USER }}
         key: ${{ secrets.XRK_SSH_PRIVATE_KEY }}
-        passwphrase: ${{ secrets.XRK_SSH_PASSPHRASE }}
+        passphrase: ${{ secrets.XRK_SSH_PASSPHRASE }}
         rm: true
         source: "./*"
         target: "/var/www/test"
